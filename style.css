@@ -1,3 +1,8 @@
+html{background-color: black;}
+#hi{background-color: gold;}
 body {color: brown;}
 h1,h2,h3,h4,h5,h6{text-align: center;}
 table,td{border: solid 1px; font-size: 20px;}
+#firstlist{color: darkgreen;font-style: italic;}
+.specialText{font-size: 30px}
+.imgProperty{border-radius: 10px; display:block; margin: auto;}
