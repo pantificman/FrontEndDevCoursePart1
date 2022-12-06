@@ -1,4 +1,4 @@
-html{background-color: black;}
+html{background-image: linear-gradient(white, grey);}
 #hi{background-color: gold;}
 body {color: brown;}
 h1,h2,h3,h4,h5,h6{text-align: center;}
@@ -7,6 +7,6 @@ table,td{border: solid 1px; font-size: 20px;}
 .specialText{font-size: 30px}
 .imgProperty{border-radius: 10px; display:block; margin: auto;}
 /*{width: 600px; height: 600px;}*/
-.imgProperties{width:100%; height: auto;}
+.imgProperties{width:100%; height: auto;max-width: 400px;}
 .listStyle{list-style-type: none; 
            font-size: 2em; border-top: solid 0.3em red; border-radius: 0.3em;}
