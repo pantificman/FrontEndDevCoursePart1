@@ -6,3 +6,7 @@ table,td{border: solid 1px; font-size: 20px;}
 #firstlist{color: darkgreen;font-style: italic;}
 .specialText{font-size: 30px}
 .imgProperty{border-radius: 10px; display:block; margin: auto;}
+/*{width: 600px; height: 600px;}*/
+.imgProperties{width:100%; height: auto;}
+.listStyle{list-style-type: none; 
+           font-size: 2em; border-top: solid 0.3em red; border-radius: 0.3em;}
