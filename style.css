@@ -2,6 +2,9 @@ html{background-image: linear-gradient(white, grey);}
 #hi{background-color: gold;}
 body {color: brown;}
 h1,h2,h3,h4,h5,h6{text-align: center;}
+a{text-decoration: none; }
+nav{font-size: 2em; border-top: solid 0.2em black; border-bottom: solid 0.2em black;
+    border-radius: 0.7em;background-color: azure;}
 table,td{border: solid 1px; font-size: 20px;}
 #firstlist{color: darkgreen;font-style: italic;}
 .specialText{font-size: 30px}
@@ -9,4 +12,19 @@ table,td{border: solid 1px; font-size: 20px;}
 /*{width: 600px; height: 600px;}*/
 .imgProperties{width:100%; height: auto;max-width: 400px;}
 .listStyle{list-style-type: none; 
-           font-size: 2em; border-top: solid 0.3em red; border-radius: 0.3em;}
+           font-size: 2em; 
+           border-top: solid 0.1em black; border-bottom: solid 0.1em black;
+           border-radius: 0.3em;
+        margin-bottom: 0.2em;}
+
+ol, ul{border-top: solid 0.2em black; border-bottom: solid 0.2em black;
+    border-radius: 0.7em;background-color: azure;}
+    a{border: 1px solid aqua;padding: 0.5em;}
+    
+/* begin tablet */  
+@media screen and (max-width: 1180px){
+    nav ul{background-color: aqua; /* display:block */}
+    .ulclass{display: flex; 
+             list-style-type: none ; 
+             justify-content:center}
+}
